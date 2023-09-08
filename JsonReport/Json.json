@@ -1,0 +1,287 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "    To Login with Valid Username and Invalid Password",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "To launch the Chrome Browser and Hit the Url",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "To Enter Valid Email in Username Field",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "To Enter Invalid Password in Password Field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "To Click the Login Button",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FeatureFbSceAndSceOutline"
+          },
+          {
+            "name": "@FbScenario"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  To Validate the Login Functionality of Facebook Application",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "C:/Users/UsEr/eclipse-workspace/Class55FrameworksDay17Cucumber/src/test/resources/FeatureFiles/01FbScenarioAndScenarioOutline.feature",
+    "tags": [
+      {
+        "name": "@FeatureFbSceAndSceOutline",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "    To Login with Valuable Email and Invaluable Password",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "To Open the Chrome Browser and Enter Url",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "To Enter Valuable Email in Username Field",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "java1@gmail.com",
+                  "selenium2@gmail.com",
+                  "framework3@gmail.com",
+                  "sql4@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "To Enter Invaluable Password in Password Field",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "java",
+                  "selenium",
+                  "python"
+                ]
+              },
+              {
+                "cells": [
+                  "framework",
+                  "sql",
+                  "git"
+                ]
+              },
+              {
+                "cells": [
+                  "jenkins",
+                  "abc123",
+                  "rst333"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "To Click the Btn Log",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "To Close the Chrome Browser",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FeatureListMap"
+          },
+          {
+            "name": "@Feature1D2DList"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  To Verify the Login Performance of Facebook",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "C:/Users/UsEr/eclipse-workspace/Class55FrameworksDay17Cucumber/src/test/resources/FeatureFiles/02FbOneDimenTwoDimenListMap.feature",
+    "tags": [
+      {
+        "name": "@FeatureListMap",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "    To Validate Signin with Valid Email and Invalid Passcode",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "Launch the Chrome Browser and Push the Url",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "To Enter the Valuable Username in Username field",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "To Click the Continue Button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "To Enter the Invaluable Passcode in Password field",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "To Click the Signin Button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "To Close the Browser we Launched",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FeatureHook"
+          },
+          {
+            "name": "@FbScenario"
+          },
+          {
+            "name": "@FbHook"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  To Validate the Login Fucntionality of Amazon Application",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "C:/Users/UsEr/eclipse-workspace/Class55FrameworksDay17Cucumber/src/test/resources/FeatureFiles/03AmazonScenarioHooks.feature",
+    "tags": [
+      {
+        "name": "@FeatureHook",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

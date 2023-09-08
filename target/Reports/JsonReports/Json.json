@@ -1,0 +1,709 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3448094000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login06HooksAmazon.bef()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "",
+        "description": "    To Login with Valid Username and Invalid Password",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 257992200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login06HooksAmazon.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1378236200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To launch the Chrome Browser and Hit the Url",
+            "match": {
+              "location": "Login01Facebook.to_launch_the_Chrome_Browser_and_Hit_the_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 280591000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To Enter Valid Email in Username Field",
+            "match": {
+              "location": "Login01Facebook.to_Enter_Valid_Email_in_Username_Field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 361571200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To Enter Invalid Password in Password Field",
+            "match": {
+              "location": "Login01Facebook.to_Enter_Invalid_Password_in_Password_Field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 435899100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To Click the Login Button",
+            "match": {
+              "location": "Login01Facebook.to_Click_the_Login_Button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FeatureFbSceAndSceOutline"
+          },
+          {
+            "name": "@FbScenario"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1906086000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login06HooksAmazon.bef()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "",
+        "description": "    Sign in with Invalid Email and Invalid Password",
+        "id": ";;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 207290800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login06HooksAmazon.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1408989300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Launch the Browser and Enter URl",
+            "match": {
+              "location": "Login02FbScenarioOutline.launch_the_Browser_and_Enter_URl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173522000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter Invalid Username \"java@gmail.com\"in Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java@gmail.com\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Login02FbScenarioOutline.enter_Invalid_Username_in_Username_Field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:31)\r\n\tat org.stepdefinitionclass3.Login02FbScenarioOutline.enter_Invalid_Password_in_Password_Field(Login02FbScenarioOutline.java:32)\r\n\tat ✽.Enter Invalid Password \"java12345\" in Password Field(C:/Users/UsEr/eclipse-workspace/Class55FrameworksDay17Cucumber/src/test/resources/FeatureFiles/01FbScenarioAndScenarioOutline.feature:24)\r\n",
+              "duration": 4489300,
+              "status": "failed"
+            },
+            "line": 24,
+            "name": "Enter Invalid Password \"java12345\" in Password Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"java12345\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Login02FbScenarioOutline.enter_Invalid_Password_in_Password_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15900,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Click the Log in button",
+            "match": {
+              "location": "Login02FbScenarioOutline.click_the_Log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10100,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Close the Browser",
+            "match": {
+              "location": "Login02FbScenarioOutline.close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FeatureFbSceAndSceOutline"
+          },
+          {
+            "name": "@FbScenario"
+          },
+          {
+            "name": "@FbScenarioOutline"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1893076100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login06HooksAmazon.bef()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "",
+        "description": "    Sign in with Invalid Email and Invalid Password",
+        "id": ";;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 324361100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login06HooksAmazon.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1311954700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Launch the Browser and Enter URl",
+            "match": {
+              "location": "Login02FbScenarioOutline.launch_the_Browser_and_Enter_URl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 285082300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter Invalid Username \"selenium@gmail.com\"in Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selenium@gmail.com\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Login02FbScenarioOutline.enter_Invalid_Username_in_Username_Field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:31)\r\n\tat org.stepdefinitionclass3.Login02FbScenarioOutline.enter_Invalid_Password_in_Password_Field(Login02FbScenarioOutline.java:32)\r\n\tat ✽.Enter Invalid Password \"sele1234\" in Password Field(C:/Users/UsEr/eclipse-workspace/Class55FrameworksDay17Cucumber/src/test/resources/FeatureFiles/01FbScenarioAndScenarioOutline.feature:24)\r\n",
+              "duration": 1311000,
+              "status": "failed"
+            },
+            "line": 24,
+            "name": "Enter Invalid Password \"sele1234\" in Password Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sele1234\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Login02FbScenarioOutline.enter_Invalid_Password_in_Password_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16300,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Click the Log in button",
+            "match": {
+              "location": "Login02FbScenarioOutline.click_the_Log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13600,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Close the Browser",
+            "match": {
+              "location": "Login02FbScenarioOutline.close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FeatureFbSceAndSceOutline"
+          },
+          {
+            "name": "@FbScenario"
+          },
+          {
+            "name": "@FbScenarioOutline"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1889174200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login06HooksAmazon.bef()"
+            }
+          }
+        ],
+        "line": 32,
+        "name": "",
+        "description": "    Sign in with Invalid Email and Invalid Password",
+        "id": ";;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 240368100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login06HooksAmazon.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1194504200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Launch the Browser and Enter URl",
+            "match": {
+              "location": "Login02FbScenarioOutline.launch_the_Browser_and_Enter_URl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 276137400,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter Invalid Username \"frameworks@gmail.com\"in Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"frameworks@gmail.com\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Login02FbScenarioOutline.enter_Invalid_Username_in_Username_Field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:31)\r\n\tat org.stepdefinitionclass3.Login02FbScenarioOutline.enter_Invalid_Password_in_Password_Field(Login02FbScenarioOutline.java:32)\r\n\tat ✽.Enter Invalid Password \"frame09876\" in Password Field(C:/Users/UsEr/eclipse-workspace/Class55FrameworksDay17Cucumber/src/test/resources/FeatureFiles/01FbScenarioAndScenarioOutline.feature:24)\r\n",
+              "duration": 1203200,
+              "status": "failed"
+            },
+            "line": 24,
+            "name": "Enter Invalid Password \"frame09876\" in Password Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"frame09876\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Login02FbScenarioOutline.enter_Invalid_Password_in_Password_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15000,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Click the Log in button",
+            "match": {
+              "location": "Login02FbScenarioOutline.click_the_Log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25100,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Close the Browser",
+            "match": {
+              "location": "Login02FbScenarioOutline.close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FeatureFbSceAndSceOutline"
+          },
+          {
+            "name": "@FbScenario"
+          },
+          {
+            "name": "@FbScenarioOutline"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1947294700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login06HooksAmazon.bef()"
+            }
+          }
+        ],
+        "line": 33,
+        "name": "",
+        "description": "    Sign in with Invalid Email and Invalid Password",
+        "id": ";;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 186238000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login06HooksAmazon.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1143089000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Launch the Browser and Enter URl",
+            "match": {
+              "location": "Login02FbScenarioOutline.launch_the_Browser_and_Enter_URl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 121535100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "Enter Invalid Username \"sql@gamil.com\"in Username Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sql@gamil.com\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Login02FbScenarioOutline.enter_Invalid_Username_in_Username_Field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "junit.framework.AssertionFailedError\r\n\tat junit.framework.Assert.fail(Assert.java:55)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:22)\r\n\tat junit.framework.Assert.assertTrue(Assert.java:31)\r\n\tat org.stepdefinitionclass3.Login02FbScenarioOutline.enter_Invalid_Password_in_Password_Field(Login02FbScenarioOutline.java:32)\r\n\tat ✽.Enter Invalid Password \"sql10293\" in Password Field(C:/Users/UsEr/eclipse-workspace/Class55FrameworksDay17Cucumber/src/test/resources/FeatureFiles/01FbScenarioAndScenarioOutline.feature:24)\r\n",
+              "duration": 681800,
+              "status": "failed"
+            },
+            "line": 24,
+            "name": "Enter Invalid Password \"sql10293\" in Password Field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sql10293\"",
+                  "offset": 23
+                }
+              ],
+              "location": "Login02FbScenarioOutline.enter_Invalid_Password_in_Password_Field(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8100,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Click the Log in button",
+            "match": {
+              "location": "Login02FbScenarioOutline.click_the_Log_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6700,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "Close the Browser",
+            "match": {
+              "location": "Login02FbScenarioOutline.close_the_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FeatureFbSceAndSceOutline"
+          },
+          {
+            "name": "@FbScenario"
+          },
+          {
+            "name": "@FbScenarioOutline"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  To Validate the Login Functionality of Facebook Application",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "C:/Users/UsEr/eclipse-workspace/Class55FrameworksDay17Cucumber/src/test/resources/FeatureFiles/01FbScenarioAndScenarioOutline.feature",
+    "tags": [
+      {
+        "name": "@FeatureFbSceAndSceOutline",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1879370100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login06HooksAmazon.bef()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "",
+        "description": "    To Validate Signin with Valid Email and Invalid Passcode",
+        "id": ";",
+        "after": [
+          {
+            "result": {
+              "duration": 233134000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Login06HooksAmazon.aft()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1155666300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Launch the Chrome Browser and Push the Url",
+            "match": {
+              "location": "Login05Amazon.launchTheChromeBrowserAndPushTheUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 798611300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To Enter the Valuable Username in Username field",
+            "match": {
+              "location": "Login05Amazon.toEnterTheValuableUsernameInUsernameField()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1464422300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "To Click the Continue Button",
+            "match": {
+              "location": "Login05Amazon.toClickTheContinueButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127431000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To Enter the Invaluable Passcode in Password field",
+            "match": {
+              "location": "Login05Amazon.toEnterTheInvaluablePasscodeInPasswordField()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 340570100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To Click the Signin Button",
+            "match": {
+              "location": "Login05Amazon.toClickTheSigninButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 93400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "To Close the Browser we Launched",
+            "match": {
+              "location": "Login05Amazon.toCloseTheBrowserWeLaunched()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FeatureHook"
+          },
+          {
+            "name": "@FbScenario"
+          },
+          {
+            "name": "@FbHook"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  To Validate the Login Fucntionality of Amazon Application",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "C:/Users/UsEr/eclipse-workspace/Class55FrameworksDay17Cucumber/src/test/resources/FeatureFiles/03AmazonScenarioHooks.feature",
+    "tags": [
+      {
+        "name": "@FeatureHook",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

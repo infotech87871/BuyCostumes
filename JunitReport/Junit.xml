@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="4" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="6" time="28.495137">
+<testcase classname="" name="_2" time="6.206532">
+<system-out><![CDATA[Given To launch the Chrome Browser and Hit the Url..........................passed
+When To Enter Valid Email in Username Field.................................passed
+And To Enter Invalid Password in Password Field.............................passed
+And To Click the Login Button...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="" name="_3" time="4.032083">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:22)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:31)&#13;&#10;&#9;at org.stepdefinitionclass3.Login02FbScenarioOutline.click_the_Log_in_button(Login02FbScenarioOutline.java:38)&#13;&#10;&#9;at ✽.Click the Log in button(C:/Users/UsEr/eclipse-workspace/Class55FrameworksDay17Cucumber/src/test/resources/FeatureFiles/01FbScenarioAndScenarioOutline.feature:25)&#13;&#10;"><![CDATA[Given Launch the Browser and Enter URl......................................passed
+When Enter Invalid Username "java@gmail.com"in Username Field...............passed
+And Enter Invalid Password "java12345" in Password Field....................passed
+And Click the Log in button.................................................failed
+Then Close the Browser......................................................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at org.stepdefinitionclass3.Login02FbScenarioOutline.click_the_Log_in_button(Login02FbScenarioOutline.java:38)
+	at ✽.Click the Log in button(C:/Users/UsEr/eclipse-workspace/Class55FrameworksDay17Cucumber/src/test/resources/FeatureFiles/01FbScenarioAndScenarioOutline.feature:25)
+]]></failure>
+</testcase>
+<testcase classname="" name="_4" time="3.955539">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:22)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:31)&#13;&#10;&#9;at org.stepdefinitionclass3.Login02FbScenarioOutline.click_the_Log_in_button(Login02FbScenarioOutline.java:38)&#13;&#10;&#9;at ✽.Click the Log in button(C:/Users/UsEr/eclipse-workspace/Class55FrameworksDay17Cucumber/src/test/resources/FeatureFiles/01FbScenarioAndScenarioOutline.feature:25)&#13;&#10;"><![CDATA[Given Launch the Browser and Enter URl......................................passed
+When Enter Invalid Username "selenium@gmail.com"in Username Field...........passed
+And Enter Invalid Password "sele1234" in Password Field.....................passed
+And Click the Log in button.................................................failed
+Then Close the Browser......................................................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at org.stepdefinitionclass3.Login02FbScenarioOutline.click_the_Log_in_button(Login02FbScenarioOutline.java:38)
+	at ✽.Click the Log in button(C:/Users/UsEr/eclipse-workspace/Class55FrameworksDay17Cucumber/src/test/resources/FeatureFiles/01FbScenarioAndScenarioOutline.feature:25)
+]]></failure>
+</testcase>
+<testcase classname="" name="_5" time="4.072432">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:22)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:31)&#13;&#10;&#9;at org.stepdefinitionclass3.Login02FbScenarioOutline.click_the_Log_in_button(Login02FbScenarioOutline.java:38)&#13;&#10;&#9;at ✽.Click the Log in button(C:/Users/UsEr/eclipse-workspace/Class55FrameworksDay17Cucumber/src/test/resources/FeatureFiles/01FbScenarioAndScenarioOutline.feature:25)&#13;&#10;"><![CDATA[Given Launch the Browser and Enter URl......................................passed
+When Enter Invalid Username "frameworks@gmail.com"in Username Field.........passed
+And Enter Invalid Password "frame09876" in Password Field...................passed
+And Click the Log in button.................................................failed
+Then Close the Browser......................................................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at org.stepdefinitionclass3.Login02FbScenarioOutline.click_the_Log_in_button(Login02FbScenarioOutline.java:38)
+	at ✽.Click the Log in button(C:/Users/UsEr/eclipse-workspace/Class55FrameworksDay17Cucumber/src/test/resources/FeatureFiles/01FbScenarioAndScenarioOutline.feature:25)
+]]></failure>
+</testcase>
+<testcase classname="" name="_6" time="4.103051">
+<failure message="junit.framework.AssertionFailedError&#13;&#10;&#9;at junit.framework.Assert.fail(Assert.java:55)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:22)&#13;&#10;&#9;at junit.framework.Assert.assertTrue(Assert.java:31)&#13;&#10;&#9;at org.stepdefinitionclass3.Login02FbScenarioOutline.click_the_Log_in_button(Login02FbScenarioOutline.java:38)&#13;&#10;&#9;at ✽.Click the Log in button(C:/Users/UsEr/eclipse-workspace/Class55FrameworksDay17Cucumber/src/test/resources/FeatureFiles/01FbScenarioAndScenarioOutline.feature:25)&#13;&#10;"><![CDATA[Given Launch the Browser and Enter URl......................................passed
+When Enter Invalid Username "sql@gamil.com"in Username Field................passed
+And Enter Invalid Password "sql10293" in Password Field.....................passed
+And Click the Log in button.................................................failed
+Then Close the Browser......................................................skipped
+
+StackTrace:
+junit.framework.AssertionFailedError
+	at junit.framework.Assert.fail(Assert.java:55)
+	at junit.framework.Assert.assertTrue(Assert.java:22)
+	at junit.framework.Assert.assertTrue(Assert.java:31)
+	at org.stepdefinitionclass3.Login02FbScenarioOutline.click_the_Log_in_button(Login02FbScenarioOutline.java:38)
+	at ✽.Click the Log in button(C:/Users/UsEr/eclipse-workspace/Class55FrameworksDay17Cucumber/src/test/resources/FeatureFiles/01FbScenarioAndScenarioOutline.feature:25)
+]]></failure>
+</testcase>
+<testcase classname="" name="_2" time="6.1255">
+<system-out><![CDATA[Given Launch the Chrome Browser and Push the Url............................passed
+When To Enter the Valuable Username in Username field.......................passed
+And To Click the Continue Button............................................passed
+And To Enter the Invaluable Passcode in Password field......................passed
+And To Click the Signin Button..............................................passed
+Then To Close the Browser we Launched.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
